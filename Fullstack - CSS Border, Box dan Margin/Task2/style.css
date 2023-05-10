@@ -1,0 +1,33 @@
+.box{
+    border: solid grey 1px;
+    width: 700px;
+    height: 300px;
+    border-radius: 10px;
+    
+}
+
+.box1{
+    border: none;
+    font-size: 20px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 20px;
+}
+
+.tengah{
+
+    margin-top: 30px;
+}
+
+.kirims{
+    border: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: white;
+    background-color: green;
+    width: 704px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    box-shadow: 1px 3px 7px black;
+}
+
+
