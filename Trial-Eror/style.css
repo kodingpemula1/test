@@ -1,0 +1,64 @@
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+  }
+  
+  nav ul li {
+    display:inline-block;
+    background-color: #f2f2f2;
+  }
+  
+  nav a {
+    display:block;
+    padding:0 10px;    
+    color:#070707;
+    font-size:18px;
+    line-height: 60px;
+    text-decoration:none;
+  }
+  
+  nav ul ul {
+    display: none;
+    position: absolute; 
+    top: 100%;
+  }
+  
+  nav ul li:hover > ul {
+    display:inherit;
+  }
+  
+  nav ul ul li {
+    width:200px;
+    float:none;
+    display:list-item;
+    position: relative;
+  }
+  
+  nav ul ul ul li {
+    position:relative;
+    top:-60px;
+    left:200px;
+  }
+  
+  /* anim */
+
+  nav ul li > ul {
+    opacity: 0;
+    visibility: hidden;
+    padding: 0;
+    position: absolute;
+    top: 40%;
+    transition: all 1s ease-in-out;
+    
+  }
+  
+  nav ul li:hover > ul {
+    opacity: 1;
+    visibility: visible;
+    padding: 10px 0;
+  }
+  
+
+  
